@@ -89,7 +89,7 @@ sub GenBoundary {
 sub ShowVersion {
   print "mmm v$VERSION\n";
   print "MIME multipart/alternative from Markdown - MMM\n";
-  print "Copyright (c) 2014 Thomas Hochstein <thh\@inter.net>\n";
+  print "Copyright (c) 2015 Thomas Hochstein <thh\@inter.net>\n";
   print "This program is free software; you may redistribute it ".
         "and/or modify it under the same terms as Perl itself.\n";
   exit(100);

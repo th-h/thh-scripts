@@ -1,17 +1,17 @@
 #! /usr/bin/perl -W
 #
-# mmm Version 0.1 by Thomas Hochstein
+# mmm Version 0.2 by Thomas Hochstein
 #
 # Create a MIME multipart/alternative part, containing
 # text/plain (in Markdowen) and text/html, from a
 # Markdown file.
 #
-# Copyright (c) 2015 Thomas Hochstein <thh@inter.net>
+# Copyright (c) 2015-2016 Thomas Hochstein <thh@inter.net>
 #
 # It can be redistributed and/or modified under the same terms under 
 # which Perl itself is published.
 
-my $VERSION = "0.1";
+my $VERSION = "0.2";
 
 use strict;
 use Getopt::Long qw(GetOptions);
@@ -56,7 +56,7 @@ print  "$headers\n" if ($OptHeaderFile);
 my $Boundary = &GenBoundary;
 print  "MIME-Version: 1.0\n";
 print  "Content-Type: multipart/alternative;\n";
-printf ('boundary="%s"'."\n",$Boundary);
+printf ('   boundary="%s"'."\n",$Boundary);
 print  "\n";
 
 print  "This is a multi-part message in MIME format.\n";

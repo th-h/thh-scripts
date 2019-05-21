@@ -1,6 +1,6 @@
 #! /usr/bin/perl -W
 #
-# mmm Version 0.2 by Thomas Hochstein
+# mmm Version 0.3 by Thomas Hochstein
 #
 # Create a MIME multipart/alternative part, containing
 # text/plain (in Markdowen) and text/html, from a
@@ -11,7 +11,7 @@
 # It can be redistributed and/or modified under the same terms under 
 # which Perl itself is published.
 
-my $VERSION = "0.2";
+my $VERSION = "0.3";
 
 use strict;
 use Getopt::Long qw(GetOptions);
@@ -82,8 +82,8 @@ exit(0);
 
 sub GenBoundary {
   my $hex;
-  $hex .= sprintf("%x", rand 16) for 1..20;
-  return ( "----------" . $hex);
+  $hex .= sprintf("%x", rand 16) for 1..25;
+  return ( "--MMM" . $hex);
 }
 
 sub ShowVersion {

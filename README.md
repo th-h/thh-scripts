@@ -17,7 +17,7 @@ Usage: `footnotes --to mmd|wp [--file $inputfile]`
 
 `mmm` (*MIME multipart/alternative from Markdown*) can
 create a MIME `multipart/alternative` mail, containing a
-`text/plain` part (in Markdowen) and a `text/html` part, from
+`text/plain` part (in Markdown) and a `text/html` part, from
 a Markdown file. Other mail headers (From:, To:, Subject:, ...)
 can be prepended from a template file.
 

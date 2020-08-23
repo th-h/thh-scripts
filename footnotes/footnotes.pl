@@ -8,7 +8,7 @@
 # text, incrementing the counter each time, or the other way
 # round.
 # 
-# Copyright (c) 2014 Thomas Hochstein <thh@inter.net>
+# Copyright (c) 2014 Thomas Hochstein <thh@thh.name>
 #
 # It can be redistributed and/or modified under the same terms under 
 # which Perl itself is published.
@@ -95,7 +95,7 @@ sub ConvertToWP {
 
 sub ShowVersion {
   print "MMD-FootNotes v$VERSION\n";
-  print "Copyright (c) 2014 Thomas Hochstein <thh\@inter.net>\n";
+  print "Copyright (c) 2014 Thomas Hochstein <thh\@thh.name>\n";
   print "This program is free software; you may redistribute it ".
         "and/or modify it under the same terms as Perl itself.\n";
   exit(100);

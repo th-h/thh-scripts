@@ -6,7 +6,7 @@
 # text/plain (in Markdowen) and text/html, from a
 # Markdown file.
 #
-# Copyright (c) 2015-2016 Thomas Hochstein <thh@inter.net>
+# Copyright (c) 2015-2016 Thomas Hochstein <thh@thh.name>
 #
 # It can be redistributed and/or modified under the same terms under 
 # which Perl itself is published.
@@ -89,7 +89,7 @@ sub GenBoundary {
 sub ShowVersion {
   print "mmm v$VERSION\n";
   print "MIME multipart/alternative from Markdown - MMM\n";
-  print "Copyright (c) 2015 Thomas Hochstein <thh\@inter.net>\n";
+  print "Copyright (c) 2015 Thomas Hochstein <thh\@thh.name>\n";
   print "This program is free software; you may redistribute it ".
         "and/or modify it under the same terms as Perl itself.\n";
   exit(100);

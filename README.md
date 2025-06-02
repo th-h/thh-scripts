@@ -23,3 +23,10 @@ to the format of the Wordpress plugin
 
 Usage: `footnotes --to mmd|wp [--file $inputfile]`
 
+### pocket-raindrop.pl
+
+`pocket-raindrop` will reformat a CSV export file from
+[Pocket](https://getpocket.com/) into a CSV import file for
+[Raindrop](https://raindrop.io/).
+
+Usage: `pocket-raindrop part_000000.csv`, output to `raindrop.csv`.

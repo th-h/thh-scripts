@@ -5,7 +5,7 @@ personal use here.
 
 ## Perl
 
-### mmm.pl
+### [mmm.pl](mmm/mmm.pl)
 
 `mmm` (*MIME multipart/alternative from Markdown*) can
 create a MIME `multipart/alternative` mail, containing a
@@ -15,7 +15,7 @@ can be prepended from a template file.
 
 Usage: `mmm [--file $inputfile] [--headers $templatefile]`
 
-### footnotes.pl
+### [footnotes.pl](converters/footnotes.pl)
 
 `footnotes` will convert footnotes in MultiMarkDown format
 to the format of the Wordpress plugin
@@ -23,7 +23,7 @@ to the format of the Wordpress plugin
 
 Usage: `footnotes --to mmd|wp [--file $inputfile]`
 
-### pocket-raindrop.pl
+### [pocket-raindrop.pl](converters/pocket-raindrop.pl)
 
 `pocket-raindrop` will reformat a CSV export file from
 [Pocket](https://getpocket.com/) into a CSV import file for

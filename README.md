@@ -5,7 +5,7 @@ personal use here.
 
 ## Perl
 
-### [mmm.pl](mmm/mmm.pl)
+### [mmm.pl](generators/mmm.pl)
 
 `mmm` (*MIME multipart/alternative from Markdown*) can
 create a MIME `multipart/alternative` mail, containing a
